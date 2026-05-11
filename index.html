@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Arthas Store</title>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="project/css/reset.css">
+
+    <link rel="stylesheet"
+          href="project/css/variables.css">
+
+    <link rel="stylesheet"
+          href="project/css/animations.css">
+
+    <link rel="stylesheet"
+          href="project/css/buttons.css">
+
+    <link rel="stylesheet"
+          href="project/css/music-button.css">
+
+    <link rel="stylesheet"
+          href="project/css/menu.css">
+
+    <link rel="stylesheet"
+          href="project/css/main.css">
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<!-- MUSIC BUTTON -->
+
+<button class="music-btn"
+        id="musicToggle">
+
+    <img src="project/assets/images/frostmourne.png"
+         alt="music">
+
+</button>
+
+<!-- MAIN MENU -->
+
+<div class="menu-container">
+
+    <h1 class="main-title">
+
+        ARTHAS STORE
+
+    </h1>
+
+    <div class="menu-buttons">
+
+        <button class="menu-btn buy-btn"
+                id="buyCurrencyBtn">
+
+            💎 Приобрести валюту
+
+        </button>
+
+        <button class="menu-btn account-btn"
+                id="buyAccountBtn">
+
+            👑 Приобрести аккаунт
+
+        </button>
+
+        <button class="menu-btn reviews-btn"
+                id="reviewsBtn">
+
+            📜 Отзывы
+
+        </button>
+
+        <button class="menu-btn support-btn"
+                id="supportBtn">
+
+            ⚔ Поддержка
+
+        </button>
+
+    </div>
+
+</div>
+
+<!-- AUDIO -->
+
+<audio id="bgMusic" loop>
+
+    <source src="project/assets/audio/bg-music.mp3"
+            type="audio/mpeg">
+
+</audio>
+
+<!-- JS -->
+
+<script src="project/js/audio.js"></script>
+
+<script src="project/js/menu.js"></script>
+
+<script src="project/js/telegram.js"></script>
+
+<script src="project/js/effects.js"></script>
+
+<script src="project/js/app.js"></script>
+
+</body>
+</html>
