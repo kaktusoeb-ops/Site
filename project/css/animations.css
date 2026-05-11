@@ -1,0 +1,35 @@
+@keyframes pulse {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.06);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+@keyframes frostGlow {
+
+    0% {
+        box-shadow:
+            0 0 10px #00bfff;
+    }
+
+    50% {
+        box-shadow:
+            0 0 30px #00bfff,
+            0 0 60px #008cff;
+    }
+
+    100% {
+        box-shadow:
+            0 0 10px #00bfff;
+    }
+
+}
