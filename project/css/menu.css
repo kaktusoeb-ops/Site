@@ -1,0 +1,36 @@
+.menu-container {
+    position: relative;
+    z-index: 2;
+
+    width: 90%;
+    max-width: 420px;
+
+    padding: 40px;
+
+    border-radius: 28px;
+
+    background: rgba(5,10,25,.72);
+
+    border: 1px solid rgba(120,220,255,.25);
+
+    box-shadow:
+        0 0 40px rgba(0,180,255,.25),
+        inset 0 0 30px rgba(255,255,255,.03);
+
+    backdrop-filter: blur(10px);
+}
+
+.main-title {
+    text-align: center;
+
+    color: #8fdcff;
+
+    font-size: 42px;
+    letter-spacing: 4px;
+
+    text-shadow:
+        0 0 15px #00cfff,
+        0 0 30px #008cff;
+
+    margin-bottom: 40px;
+}
