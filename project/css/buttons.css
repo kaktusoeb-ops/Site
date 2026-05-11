@@ -37,3 +37,35 @@
 .support-btn {
     background: linear-gradient(135deg, #4b134f, #1f1c2c);
 }
+
+.music-btn {
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    width: 72px;
+    height: 72px;
+
+    border-radius: 50%;
+
+    border: 2px solid rgba(120,220,255,.35);
+
+    background: rgba(0,0,0,.5);
+
+    z-index: 10;
+
+    cursor: pointer;
+
+    transition: .3s;
+}
+
+.music-btn img {
+    width: 38px;
+}
+
+.music-btn.active {
+    box-shadow:
+        0 0 20px #00bfff,
+        0 0 40px #008cff;
+}
