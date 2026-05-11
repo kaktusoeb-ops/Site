@@ -1,0 +1,39 @@
+.menu-btn {
+    width: 100%;
+
+    margin-bottom: 18px;
+    padding: 18px;
+
+    border-radius: 16px;
+    border: none;
+
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .25s ease;
+}
+
+.menu-btn:hover {
+    transform: translateY(-3px) scale(1.02);
+}
+
+.buy-btn {
+    background: linear-gradient(135deg, #0f5ca8, #081f4d);
+    box-shadow: 0 0 20px rgba(0,180,255,.35);
+}
+
+.account-btn {
+    background: linear-gradient(135deg, #2c3e50, #000000);
+    box-shadow: 0 0 20px rgba(120,120,255,.25);
+}
+
+.reviews-btn {
+    background: linear-gradient(135deg, #155799, #159957);
+}
+
+.support-btn {
+    background: linear-gradient(135deg, #4b134f, #1f1c2c);
+}
