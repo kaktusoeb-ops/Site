@@ -1,0 +1,50 @@
+.music-btn {
+
+    position: fixed;
+
+    top: 20px;
+    right: 20px;
+
+    width: 74px;
+    height: 74px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(0,0,0,.45);
+
+    border:
+        2px solid rgba(120,220,255,.3);
+
+    z-index: 100;
+
+    cursor: pointer;
+
+    backdrop-filter: blur(5px);
+
+    transition:
+        .3s ease;
+
+}
+
+.music-btn img {
+
+    width: 40px;
+
+    pointer-events: none;
+
+}
+
+.music-btn:hover {
+
+    transform:
+        scale(1.05);
+
+}
+
+.music-btn.active {
+
+    animation:
+        frostGlow 2s infinite;
+
+}
