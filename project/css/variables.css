@@ -1,0 +1,16 @@
+:root {
+
+    --ice-blue: #7ddfff;
+    --dark-blue: #07111f;
+    --frost-glow: #00cfff;
+
+    --card-bg:
+        rgba(8, 15, 30, 0.78);
+
+    --main-transition:
+        .25s ease;
+
+    --shadow-main:
+        0 0 25px rgba(0,191,255,.35);
+
+}
